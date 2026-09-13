@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://vitransgrup.github.io/vi-trans-grup/sitemap.xml
