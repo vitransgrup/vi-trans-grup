@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<title>VI Trans Grup - Taxi & Travel Singkawang, Pontianak & Kalimantan</title>
+<meta name="description" content="VI Trans Grup Taxi & Travel melayani perjalanan Singkawang, Pontianak, Sambas, Sintang dan rute tersedia lainnya. Door to door, airport transfer SKJ/PNK, carter mobil, serta titip dokumen dan paket. Booking via WhatsApp.">
+<meta name="keywords" content="VI Trans Grup, VI Trans Grup Taxi Travel, taxi Singkawang, travel Singkawang Pontianak, travel Pontianak Singkawang, travel Kalimantan Barat, door to door Singkawang, airport transfer SKJ, airport transfer PNK, carter mobil Singkawang">
+<meta name="author" content="VI Trans Grup">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<meta name="theme-color" content="#090a0e">
+<link rel="canonical" href="https://vitransgrup.github.io/vi-trans-grup/">
+
+<!-- Open Graph -->
+<meta property="og:type" content="website">
+<meta property="og:locale" content="id_ID">
+<meta property="og:site_name" content="VI Trans Grup">
+<meta property="og:title" content="VI Trans Grup - Taxi & Travel Singkawang, Pontianak & Kalimantan">
+<meta property="og:description" content="Taxi & travel, door to door, airport transfer SKJ/PNK, carter mobil dan titip paket. Booking VI Trans Grup melalui WhatsApp.">
+<meta property="og:url" content="https://vitransgrup.github.io/vi-trans-grup/">
+<meta property="og:image" content="https://vitransgrup.github.io/vi-trans-grup/assets/logo.jpg">
+<meta property="og:image:alt" content="Logo VI Trans Grup Taxi & Travel">
+
+<!-- Twitter/X -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="VI Trans Grup - Taxi & Travel">
+<meta name="twitter:description" content="Layanan taxi & travel, door to door, airport transfer, carter mobil dan titip paket.">
+<meta name="twitter:image" content="https://vitransgrup.github.io/vi-trans-grup/assets/logo.jpg">
+
+<!-- Structured data: website + business -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://vitransgrup.github.io/vi-trans-grup/#website",
+      "url": "https://vitransgrup.github.io/vi-trans-grup/",
+      "name": "VI Trans Grup",
+      "alternateName": "VI Trans Grup Taxi & Travel",
+      "inLanguage": "id-ID"
+    },
+    {
+      "@type": "TravelAgency",
+      "@id": "https://vitransgrup.github.io/vi-trans-grup/#business",
+      "name": "VI Trans Grup",
+      "url": "https://vitransgrup.github.io/vi-trans-grup/",
+      "telephone": "+6283829506945",
+      "description": "Layanan taxi & travel, door to door, airport transfer, carter mobil serta titip dokumen dan paket.",
+      "image": "https://vitransgrup.github.io/vi-trans-grup/assets/logo.jpg",
+      "areaServed": [
+        {"@type": "City", "name": "Singkawang"},
+        {"@type": "City", "name": "Pontianak"},
+        {"@type": "City", "name": "Sambas"},
+        {"@type": "City", "name": "Sintang"},
+        {"@type": "City", "name": "Putussibau"}
+      ],
+      "sameAs": []
+    }
+  ]
+}
+</script>
+
+</head>
+<body>
+<header class="header"><div class="container nav">
+<a class="brand" href="#home"><img src="assets/logo.jpg" alt="Logo VI Trans Grup Taxi & Travel"><span><b>VI TRANS GRUP</b><small>TAXI & TRAVEL</small></span></a>
+<button id="menu" class="menu">☰</button>
+<nav id="nav"><a href="#home">Home</a><a href="#layanan">Layanan</a><a href="#rute">Rute</a><a href="#tarif">Tarif</a><a href="#armada">Armada</a><a href="#tentang">Tentang</a><a href="#kontak" class="nav-cta">Booking</a></nav>
+</div></header>
+
+<section class="hero" id="home"><div class="hero-image"></div><div class="container hero-grid">
+<div class="hero-copy"><span class="eyebrow">AMAN • NYAMAN • TERPERCAYA</span><h1>Perjalanan Anda,<br><strong>urusan kami.</strong></h1>
+<p>Taxi & travel dengan layanan door to door, perjalanan antarkota, airport transfer, carter mobil serta titip dokumen dan paket.</p>
+<div class="actions"><a class="btn gold" href="#booking">Booking Sekarang →</a><a class="btn outline" href="tel:+6283829506945">☎ 0838-2950-6945</a></div>
+<div class="trust"><span>✓ Berangkat setiap hari</span><span>✓ Full AC</span><span>✓ Driver berpengalaman</span></div></div>
+
+<div class="booking" id="booking"><div class="booking-title"><span>🚕</span><div><h2>Reservasi Perjalanan</h2><p>Isi data lalu lanjutkan ke WhatsApp.</p></div></div>
+<form id="bookForm">
+<div class="grid2"><label>Nama<input id="name" required placeholder="Nama lengkap"></label><label>WhatsApp<input id="phone" required placeholder="08xxxxxxxxxx"></label></div>
+<label>Layanan<select id="service" required><option value="">Pilih layanan</option><option>Taxi / Travel Reguler</option><option>Door to Door</option><option>Airport Transfer SKJ</option><option>Airport Transfer PNK</option><option>Carter Mobil</option><option>Titip Dokumen / Paket</option></select></label>
+<div class="grid2"><label>Jemput<input id="pickup" required placeholder="Lokasi jemput"></label><label>Tujuan<input id="destination" required placeholder="Tujuan perjalanan"></label></div>
+<div class="grid2"><label>Tanggal<input id="date" type="date" required></label><label>Jam<input id="time" type="time" required></label></div>
+<div class="grid2"><label>Penumpang<input id="passengers" type="number" min="1" value="1" required></label><label>Kendaraan<select id="vehicle"><option>Bebas / sesuai ketersediaan</option><option>Toyota Calya</option><option>Toyota Avanza</option></select></label></div>
+<label>Catatan<textarea id="note" rows="2" placeholder="Nomor penerbangan, bagasi, kebutuhan khusus, dll."></textarea></label>
+<button class="btn gold full">Kirim Booking via WhatsApp</button><small>Admin akan mengonfirmasi jadwal, kursi, dan tarif.</small>
+</form></div></div></section>
+
+<section class="quick"><div class="container quickgrid"><div><b>DOOR TO DOOR</b><span>Jemput sesuai lokasi</span></div><div><b>FULL AC</b><span>Armada nyaman</span></div><div><b>SETIAP HARI</b><span>Jadwal perjalanan</span></div><div><b>WHATSAPP</b><span>Reservasi cepat</span></div></div></section>
+
+<section class="section" id="layanan"><div class="container"><div class="head"><div><span class="eyebrow dark">LAYANAN</span><h2>Berbagai kebutuhan perjalanan.</h2></div><p>Solusi transportasi untuk pribadi, keluarga, bisnis, wisata dan pengiriman ringan.</p></div>
+<div class="cards">
+<article class="featured"><i>🚕</i><h3>Taxi & Travel</h3><p>Perjalanan reguler antarkota dengan layanan nyaman dan praktis.</p><a href="#booking">Booking →</a></article>
+<article><i>🏠</i><h3>Door to Door</h3><p>Jemput dan antar langsung sesuai titik yang disepakati.</p><a href="#booking">Pesan →</a></article>
+<article><i>✈️</i><h3>Airport Transfer</h3><p>Antar jemput Bandara SKJ dan PNK sesuai jadwal penerbangan.</p><a href="#booking">Pesan →</a></article>
+<article><i>🚙</i><h3>Carter Mobil</h3><p>Untuk keluarga, wisata, bisnis, acara dan kebutuhan khusus.</p><a href="#booking">Tanyakan →</a></article>
+<article><i>📦</i><h3>Titip Paket</h3><p>Layanan titip dokumen, paket dan barang sesuai ketentuan.</p><a href="#booking">Tanyakan →</a></article>
+<article><i>🛣️</i><h3>Lintas Provinsi</h3><p>Perjalanan Kalbar, Kaltara, Kaltim, Kalsel dan rute tersedia lainnya.</p><a href="#booking">Cek rute →</a></article>
+</div></div></section>
+
+<section class="dark-section" id="rute"><div class="container"><div class="head dark-head"><div><span class="eyebrow">RUTE POPULER</span><h2>Berangkat dari kota,<br><strong>menuju tujuan Anda.</strong></h2></div><p>Hubungi admin untuk memastikan jadwal dan ketersediaan kursi terbaru.</p></div>
+<div class="route-grid">
+<div><span>PANTURA</span><h3>Singkawang ↔ Pontianak</h3><p>Pontianak ↔ Singkawang ↔ Sambas</p><a href="#booking">Booking rute →</a></div>
+<div><span>RUTE HULU</span><h3>Singkawang ↔ Sintang</h3><p>Pontianak ↔ Sintang ↔ Putussibau</p><a href="#booking">Booking rute →</a></div>
+<div><span>LINTAS PROVINSI</span><h3>Kalbar • Kaltara • Kaltim • Kalsel</h3><p>Tanyakan tujuan dan jadwal perjalanan.</p><a href="#booking">Cek rute →</a></div>
+</div></div></section>
+
+<section class="section" id="tarif"><div class="container"><div class="head"><div><span class="eyebrow dark">INFORMASI TARIF</span><h2>Tarif disesuaikan dengan perjalanan.</h2></div><p>Harga dapat berbeda berdasarkan rute, titik jemput, waktu, jumlah penumpang dan jenis kendaraan.</p></div>
+<div class="tariff"><div><b>REGULER</b><strong>Hubungi Admin</strong><span>Tarif sesuai rute & jadwal</span></div><div><b>DOOR TO DOOR</b><strong>Hubungi Admin</strong><span>Disesuaikan titik jemput</span></div><div><b>CARTER</b><strong>Hubungi Admin</strong><span>Durasi & tujuan perjalanan</span></div><div><b>AIRPORT</b><strong>Hubungi Admin</strong><span>SKJ / PNK</span></div></div></div></section>
+
+<section class="fleet" id="armada"><div class="container fleet-grid"><div><span class="eyebrow dark">ARMADA</span><h2>Toyota Calya & Avanza.</h2><p>Armada keluarga yang nyaman untuk perjalanan harian maupun antarkota. Ketersediaan kendaraan mengikuti jadwal operasional.</p><div class="checks"><span>✓ Full AC</span><span>✓ Kabin bersih</span><span>✓ Nyaman untuk keluarga</span><span>✓ Perawatan berkala</span></div><a class="btn black" href="#booking">Pilih Armada</a></div><div class="fleet-card"><div class="car car1"></div><div class="car car2"></div><div class="fleet-caption"><b>VI TRANS GRUP</b><span>CALYA • AVANZA • ARMADA TERSEDIA</span></div></div></div></section>
+
+<section class="section about" id="tentang"><div class="container about-grid"><img src="assets/promo.png" alt="Promosi layanan taxi dan travel VI Trans Grup"><div><span class="eyebrow dark">TENTANG VI TRANS GRUP</span><h2>Teman perjalanan setiap hari.</h2><p>VI Trans Grup hadir untuk memberikan layanan taxi & travel yang aman, nyaman dan terpercaya.</p><p>Kami melayani perjalanan reguler, door to door, airport transfer, carter serta titip dokumen dan paket. Semua reservasi dapat dikonfirmasi langsung melalui WhatsApp.</p><div class="numbers"><div><b>01</b><span>Booking mudah</span></div><div><b>02</b><span>Konfirmasi admin</span></div><div><b>03</b><span>Driver menjemput</span></div></div></div></div></section>
+
+<section class="cta" id="kontak"><div class="container cta-inner"><div><span class="eyebrow">RESERVASI & INFORMASI</span><h2>Siap berangkat?</h2><p>Jangan sampai kehabisan kursi. Booking sekarang melalui WhatsApp.</p></div><a class="btn gold big" id="waContact" href="#">WhatsApp 0838-2950-6945</a></div></section>
+</main>
+
+<footer><div class="container foot"><div><a class="foot-brand" href="#home">VI TRANS <span>GRUP</span></a><p>Taxi & Travel • Aman • Nyaman • Terpercaya</p></div><div><b>LAYANAN</b><a href="#layanan">Taxi & Travel</a><a href="#layanan">Airport Transfer</a><a href="#layanan">Carter</a></div><div><b>RUTE</b><a href="#rute">Pantura</a><a href="#rute">Rute Hulu</a><a href="#rute">Lintas Provinsi</a></div><div><b>KONTAK</b><span>0838-2950-6945</span><span>WhatsApp</span></div></div><div class="copy">© <span id="year"></span> ARL PROJECT. Informasi rute/tarif dapat berubah sesuai operasional.</div></footer>
+<a class="float" id="float" href="#" aria-label="WhatsApp" title="Chat WhatsApp">
+  <svg viewBox="0 0 32 32" aria-hidden="true">
+    <path d="M19.11 17.21c-.27-.14-1.6-.79-1.85-.88-.25-.09-.43-.14-.61.14-.18.27-.7.88-.86 1.06-.16.18-.32.2-.59.07-.27-.14-1.13-.42-2.15-1.33-.79-.7-1.33-1.56-1.49-1.83-.16-.27-.02-.42.12-.56.12-.12.27-.32.41-.48.14-.16.18-.27.27-.45.09-.18.05-.34-.02-.48-.07-.14-.61-1.47-.84-2.01-.22-.53-.45-.46-.61-.47h-.52c-.18 0-.48.07-.73.34-.25.27-.95.93-.95 2.27s.98 2.64 1.11 2.82c.14.18 1.92 2.93 4.65 4.11.65.28 1.16.45 1.56.57.66.21 1.26.18 1.73.11.53-.08 1.6-.66 1.82-1.29.23-.63.23-1.17.16-1.29-.07-.11-.25-.18-.52-.32z"/>
+    <path d="M16 3a13 13 0 0 0-11.2 19.6L3 29l6.58-1.72A13 13 0 1 0 16 3zm0 23.7c-2.1 0-4.16-.56-5.96-1.62l-.43-.25-3.9 1.02 1.04-3.8-.28-.45A10.7 10.7 0 1 1 16 26.7z"/>
+  </svg>
+</a>
+<script src="script.js"></script>
+</body></html>
